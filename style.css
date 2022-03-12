@@ -81,6 +81,21 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+
+.intro-img{
+    border-radius: 10px  10px 0 0;
+    box-shadow: 0 4px 5px #7e7e7e;
+     background-color: black;
+    /* opacity: 0.8; */
+
+    /* transition: opacity 0.3s linear; */
+   
+}
+
+.intro-img:hover{
+    /* opacity: 1; */
+}
+
 /* Nav */
 
 .nav {
@@ -96,6 +111,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px 12px;
     text-decoration: none;
     color: black;
+
+    transition: background-color 0.2s linear;
 
 }
 
